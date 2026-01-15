@@ -1,4 +1,4 @@
-FROM debian:12.10
+FROM debian:12.13
 
 RUN apt-get update
 RUN apt-get install -y ca-certificates gnupg wget
